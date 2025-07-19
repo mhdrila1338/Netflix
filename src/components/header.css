@@ -4,6 +4,12 @@
     padding: 0;
 }
 .header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.container_main{
     display: flex;
     justify-content: space-between;
     align-items: center;
