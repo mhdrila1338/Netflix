@@ -13,7 +13,6 @@ const Main_center = () => {
           <button className='sub_btn'><a href="">Get Started</a></button>
         </div>
       </div>
-      <div class="curve-divider"></div>
     </main>
   );
 };
