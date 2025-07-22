@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
 .boxTypes {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
   max-width: 1224px;
   margin: 0 auto;
@@ -15,47 +21,117 @@
 }
 
 .boxes {
-  width: 100%;
+  flex: 1 1 calc(25% - 20px);
   min-height: 278px;
   background-image: linear-gradient(rgb(35, 56, 92), rgb(98, 23, 38));
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 20px;
   padding: 15px;
+  color: white;
 }
 
 .boxes:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-.second_section{
-    max-width: 1224px;
-    min-height: 614px;
-    margin: 0 auto;
+
+.second_section {
+  max-width: 1224px;
+  min-height: 614px;
+  margin: 0 auto;
 }
-.second_section h1{
-    color: white;
-    padding-left: 10px;
+
+.second_section h1 {
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
-.second_boxes{
-    max-width: 1224px;
-    min-height: 552px;
+
+.second_boxes {
+  max-width: 1224px;
+  min-height: 552px;
 }
-.li_boxes{
-    color: white;
+
+.li_boxes {
+  color: white;
+  list-style: none;
 }
-li h3{
-    max-width: 1224px;
-    min-height: 84px;
-    border: none;
-    line-height: 84px;
-    background-color: rgb(66, 63, 63);
-    color: white;
-    margin: 10px;
+
+li h3 {
+  max-width: 1224px;
+  min-height: 84px;
+  line-height: 84px;
+  background-color: rgb(66, 63, 63);
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 0 20px;
 }
-.li_button{
-    font-size: x-large;
-    border: none;
-    background: 0;
-    color: white;
-    padding: 30px;
+
+.li_button {
+  font-size: 24px;
+  border: none;
+  background: none;
+  color: white;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+li h3 {
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.li_boxes h3:hover {
+  background-color: gray;
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.email_section {
+  padding: 40px 20px;
+}
+
+.emil_container {
+  max-width: 1224px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.emil_container h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.emil_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.in_1 {
+  max-width: 500px;
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(27, 27, 26);
+}
+
+.in_2 {
+  padding: 15px 25px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.in_2 a {
+  color: white;
+  text-decoration: none;
 }

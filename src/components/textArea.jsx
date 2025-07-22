@@ -81,6 +81,15 @@ const TextArea = () => {
             </section>
 
             <section className='email_section'>
+                <div className="emil_container">
+                    <h3>
+                        Ready to watch? Enter your email to create or restart your membership.
+                    </h3>
+                    <div className="emil_input">
+                        <input type="text" placeholder='Email address' className='in_1'/>
+                        <button type='Get Started' className='in_2'><a href="">Get Started</a></button>
+                    </div>
+                </div>
             </section>
     </div>
     
