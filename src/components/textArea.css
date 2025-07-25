@@ -129,9 +129,19 @@ li h3 {
   font-size: 20px;
   border: none;
   border-radius: 5px;
+  transition: width .5s, height .5s, transform .5s;
 }
 
 .in_2 a {
   color: white;
   text-decoration: none;
+}
+.in_1:hover{
+  transform: scale(1.02);
+  background-color: rgb(42, 40, 40);
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.in_2:hover{
+  padding: 20PX 30px;
+  transform: rotate(360deg);
 }

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topHeader{
+    max-width: 1520px;
+    min-height: 92px;
+    padding: 24px 48px;
+}
+.image_area{
+    margin: 0 auto;
+    max-width: 1187px;
+    min-height: 48px;
+}
+.sub_container{
+    text-align: center;
+    max-width: 480px;
+    min-height: 709px;
+    margin: 0 auto;
+}
+.button button{
+    background-color: red;
+    color: white;
+    width: 352px;
+    height: 40px;
+}
+.email input{
+    width: 352px;
+    height: 56PX;
+    border-radius: 7px;
+    padding: 10px;
+}
+.password input{
+    width: 352px;
+    height: 56px;
+    border-radius: 7px;
+    padding: 10px;
+}
+.or{
+    color: white;
+}
+.code_box{
+    width: 352px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    background-color: rgba(99, 95, 95, 0.695);
+    border-radius: 5px;
+}
+.forgotPswd{
+    width: 352px;
+    height: 20px;
+    margin: 0 auto;
+}
+.tikbox label{
+    color: white;
+}
+.tikbox{
+    width: 352px;
+    height: 24px;
+    margin: 0 auto;
+    text-align: left;
+}
+.newNetflix{
+    width: 352px;
+    height: 36px;
+    margin: 0 auto;
+    text-align: left;
+}
+.newInner{
+    width: 352px;
+    height: 20px;
+    color: rgb(181, 168, 168);
+    text-align: left;
+}
+.newInner a{
+    color: white;
+}
+.forgotPswd a{
+    color: white;
+}
+.text{
+    width: 352px;
+    height: 32px;
+    margin: 0 auto;
+}
+.text p{
+    color:rgba(255,255,255,0.5);
+    font-weight: 400;
+    text-align: start;
+    font-family: unset;
+    font-size: 0.8125rem;
+}
+.sub_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Form_class{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    border-radius: 5px;
+}
