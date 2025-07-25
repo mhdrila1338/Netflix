@@ -12,12 +12,6 @@ import SignInPage from './components/SignInPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header />
-    <Main_center />
-    <SimpleSlider />
-    <TextArea />
     <App />
-    <SignInPage />
-    <Footer />
   </StrictMode>,
 )
