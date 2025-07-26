@@ -36,7 +36,7 @@ const SignInPage = () => {
 
                    <div className="signInCode">
                     <button className="code_box">
-                        Use a sign-in code
+                        <a href="">Use a sign-in code</a>
                     </button>
                    </div>
 
