@@ -3,10 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+.Parent_container{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/IN-en-20250714-TRIFECTA-perspective_5acb7337-c372-45ec-ae12-ddb110e6ad78_large.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
 .topHeader{
     max-width: 1520px;
     min-height: 92px;
     padding: 24px 48px;
+    position: relative;
+    z-index: 100;
+    width: 100%;
 }
 .image_area{
     margin: 0 auto;
@@ -18,6 +28,8 @@
     max-width: 480px;
     min-height: 709px;
     margin: 0 auto;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    margin-bottom: 100px;
 }
 .button button{
     background-color: red;
@@ -30,13 +42,18 @@
     height: 56PX;
     border-radius: 7px;
     padding: 10px;
+    background: none;
+    border: 1px solid white;
 }
 .password input{
     width: 352px;
     height: 56px;
     border-radius: 7px;
     padding: 10px;
+    background: none;
+    border: 1px solid white;
 }
+
 .or{
     color: white;
 }
@@ -104,4 +121,39 @@
 }
 .input{
     border-radius: 5px;
+}
+.heading{
+    text-align: left;
+    padding: 20px 20px 20px 0;
+    font-weight: 700;font-size: 32px;
+}
+.form_container{
+    width: 352px;
+    min-height: 40px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.footer_container{
+    max-width: 1520px;
+    min-height: 309px;
+    background-color: rgb(29, 25, 25);
+}
+.footer_ul{
+    max-width: 1171px;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 20px;
+}
+.footer_child{
+    max-width: 1171px;
+    min-height: 164px;
+    margin: 0 auto;
+    padding: 100px 100px 100px 0;
+}
+.footerText{
+    color: gainsboro;
+}
+.footer_li a{
+    color: gainsboro;
 }

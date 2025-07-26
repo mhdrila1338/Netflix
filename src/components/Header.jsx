@@ -15,7 +15,7 @@ const Header = () => {
                   <option value=""><a href="">English</a></option>
                   <option value=""><a href="">हिन्दी</a></option>
                 </select>
-                <button className='btn'><Link to="/">Sign In</Link></button>
+                <button className='btn'><Link to="/login">Sign In</Link></button>
             </div>
         </div>
     </header>

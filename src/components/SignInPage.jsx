@@ -2,7 +2,7 @@ import React from 'react'
 import "./SignIn.css"
 const SignInPage = () => {
   return (
-    <div>
+    <div className='Parent_container'>
       <header>
         <div className="topHeader">
             <div className="image_area">
@@ -63,6 +63,44 @@ const SignInPage = () => {
            </div>
         </div>
       </main>
+
+      <footer>
+
+        <div className="footer_container">
+          <div className="footer_innerContainer">
+            <div className="footer_child">
+              <span className="footerText">Questions?Call 000-800-919-1743(Toll-Free)</span>
+              <ul className="footer_ul">
+                <li className="footer_li">
+                  <a href="">FAQ</a>
+                </li>
+                <li className="footer_li">
+                  <a href="">Help Centre</a>
+                </li>
+                <li className="footer_li">
+                  <a href="">Terms of Use</a>
+                </li>
+                <li className="footer_li">
+                  <a href="">Privacy</a>
+                </li>
+                <li className="footer_li">
+                  <a href="">Cookie Preferences</a>
+                </li>
+                <li className="footer_li">
+                  <a href="">Corporate Information</a>
+                </li>
+              </ul>
+              <div className="language_selector">
+                 <select className="btn_footer" aria-label="Select Language">
+                   <option value="en">English</option>
+                   <option value="hi">हिन्दी</option>
+                 </select>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
