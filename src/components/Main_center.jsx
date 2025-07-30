@@ -1,5 +1,6 @@
 import React from 'react';
 import './main_center.css';
+import { Link } from 'react-router-dom';
 
 const Main_center = () => {
   return (
@@ -10,7 +11,7 @@ const Main_center = () => {
         <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
         <div className="email">
           <input type="text" placeholder="Email address" className='inp'/>
-          <button className='sub_btn'><a href="">Get Started</a></button>
+          <button className='sub_btn'><Link to="/Signup">Get Started</Link></button>
         </div>
       </div>
     </main>

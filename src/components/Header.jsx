@@ -12,8 +12,8 @@ const Header = () => {
 
             <div className="content">
                 <select name="" id="" className='dropdown'>
-                  <option value=""><a href="">English</a></option>
-                  <option value=""><a href="">हिन्दी</a></option>
+                  <option value="">English</option>
+                  <option value="">हिन्दी</option>
                 </select>
                 <button className='btn'><Link to="/login">Sign In</Link></button>
             </div>

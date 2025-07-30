@@ -1,7 +1,7 @@
 import React from 'react';
 import './SignIn.css';
 
-const SignInPage = () => {
+const SignUp = () => {
   
   return (
     <div className='Parent_container'>
@@ -22,6 +22,10 @@ const SignInPage = () => {
 
             <form className='Form_class'>
               <div className="email">
+                <input type="text" placeholder='Username' />
+              </div>
+
+              <div className="email">
                 <input type="email" placeholder='Email or mobile number' />
               </div>
 
@@ -30,31 +34,12 @@ const SignInPage = () => {
               </div>
 
               <div className="button">
-                <button><a href="">Sign In</a></button>
-              </div>
-
-              <span className='or'> OR </span>
-
-              <div className="signInCode">
-                <button className="code_box">
-                  <a href="">Use a sign-in code</a>
-                </button>
-              </div>
-
-              <div className="forgotPswd">
-                <span><a href="">Forgot password?</a></span>
+                <button><a href="">Register</a></button>
               </div>
 
               <div className="tikbox">
                 <input type="checkbox" />
                 <label htmlFor="">Remember me</label>
-              </div>
-
-              <div className="newNetflix">
-                <span className="newInner">
-                  New to Netflix?
-                  <a href="">Sign up Now</a>
-                </span>
               </div>
 
               <div className="text">
@@ -92,4 +77,4 @@ const SignInPage = () => {
   );
 };
 
-export default SignInPage;
+export default SignUp;
