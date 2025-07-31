@@ -1,8 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './SignIn.css';
 
 const SignInPage = () => {
-  
+  const[input,setInput]=useState({
+    email:'',
+    password:''
+  });
+
+  const handleChange=(e)=>{
+    setInput({
+      ...input,[e.target.name]:e.target.value
+    })
+  };
+
+  const loginSubmit=(e)=>{
+    e.preventDefault(); 
+
+    const storedData= JSON.parse(localStorage.getItem('userData'));
+      
+    if(storedData && storedData.email === input.email && storedData.password === input.password)
+    {
+      alert("Login successful")
+      console.log("is working",input)
+    }
+    else{
+      alert("Invalid email or password")
+    }
+  };
+
   return (
     <div className='Parent_container'>
       <header>
@@ -20,17 +45,17 @@ const SignInPage = () => {
               <h1 className="heading" style={{ color: "white" }}>Sign In</h1>
             </div>
 
-            <form className='Form_class'>
+            <form className='Form_class' onSubmit={loginSubmit}>
               <div className="email">
-                <input type="email" placeholder='Email or mobile number' />
+                <input type="email" name='email' placeholder='Email' value={input.email} onChange={handleChange}/>
               </div>
 
               <div className="password">
-                <input type="password" placeholder='Password' />
+                <input type="password" name='password' placeholder='Password' value={input.password} onChange={handleChange}/>
               </div>
 
               <div className="button">
-                <button><a href="">Sign In</a></button>
+                <button type='submit'>Sign In</button>
               </div>
 
               <span className='or'> OR </span>
@@ -92,4 +117,4 @@ const SignInPage = () => {
   );
 };
 
-export default SignInPage;
+export default SignInPage;

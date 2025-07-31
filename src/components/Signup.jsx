@@ -1,7 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './SignIn.css';
 
 const SignUp = () => {
+
+  const [userData, setUserData] = useState({
+    username: '',
+    email: '',
+    password: ''
+  });
+
+  const handlechange=(e)=>{
+    setUserData({
+      ...userData,[e.target.name]: e.target.value
+    })
+  }
+
+  const submit=(e)=>{
+    e.preventDefault();
+    localStorage.setItem('userData',JSON.stringify(userData))
+    console.log("form submitted", userData)
+    alert("Congratulations . Your new account has been created successfully")
+  }
   
   return (
     <div className='Parent_container'>
@@ -20,21 +39,21 @@ const SignUp = () => {
               <h1 className="heading" style={{ color: "white" }}>Sign In</h1>
             </div>
 
-            <form className='Form_class'>
+            <form className='Form_class' onSubmit={submit}>
               <div className="email">
-                <input type="text" placeholder='Username' />
+                <input type="text" name='username' placeholder='Username' value={userData.username} onChange={handlechange}/>
               </div>
 
               <div className="email">
-                <input type="email" placeholder='Email or mobile number' />
+                <input type="email" name='email' placeholder='Email' value={userData.email} onChange={handlechange}/>
               </div>
 
               <div className="password">
-                <input type="password" placeholder='Password' />
+                <input type="password" name='password' placeholder='Password' value={userData.password} onChange={handlechange}/>
               </div>
 
               <div className="button">
-                <button><a href="">Register</a></button>
+                <button type='submit'>Register</button>
               </div>
 
               <div className="tikbox">
