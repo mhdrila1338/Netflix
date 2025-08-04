@@ -23,7 +23,8 @@ const SignUp = () => {
   }
   
   return (
-    <div className='Parent_container'>
+    <div id='signin'>
+      <div className='Parent_container'>
       <header>
         <div className="topHeader">
           <div className="image_area">
@@ -92,6 +93,7 @@ const SignUp = () => {
           </div>
         </div>
       </footer>
+    </div>
     </div>
   );
 };

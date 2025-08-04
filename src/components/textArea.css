@@ -1,13 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
+#text_area{
   background-color: black;
   font-family: Arial, sans-serif;
-}
 
 .boxTypes {
   display: flex;
@@ -144,4 +137,5 @@ li h3 {
 .in_2:hover{
   padding: 20PX 30px;
   transform: rotate(360deg);
+}
 }

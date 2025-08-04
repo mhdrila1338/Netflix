@@ -17,7 +17,8 @@ export default function SimpleSlider() {
   };
 
   return (
-    <div className="trending-container">
+   <div id='section_scroll'>
+     <div className="trending-container">
       <h2 className="section-title">Trending Now</h2>
       <Slider {...settings}>
         <div className="poster"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIM0-w43ChyvBSM5cXykYx5NV-Yl0WEX6Aqw&s" alt="Poster 1" /></div>
@@ -30,5 +31,6 @@ export default function SimpleSlider() {
         <div className="poster"><img src="https://static.srpcdigital.com/styles/1037xauto/public/2024-03/574887_0.jpeg.webp" alt="Poster 8" /></div>
       </Slider>
     </div>
+   </div>
   );
 }

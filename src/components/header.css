@@ -1,9 +1,5 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.header{
+#header-section{   
+    .header{
   position: absolute;
   top: 0;
   width: 100%;
@@ -54,4 +50,6 @@
 .logo img{
     max-height: 40px;
     margin-left: 16px; 
+}
+
 }
