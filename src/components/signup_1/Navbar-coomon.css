@@ -1,0 +1,27 @@
+#navbarCommon{
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+    .Nav_container{
+    max-width: 1520px;
+    min-height: 90px;
+    border-bottom: 1px solid #e6e6e6;
+    }
+
+    .image_area{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 90px;
+        padding: 0 40px 0 40px;
+    }
+
+    .image_area a,img{
+        max-width: 167px;
+        min-height: 45px;
+    }
+
+    .image_area button{
+        border: none;
+        font-size: 19px;
+        background: none;
+    }
+}

@@ -9,6 +9,7 @@ import Login from './pages/login'
 import SignUp from './components/Signup'
 import Signin_initial from './components/signup_1/signup_initial'
 import Signup_first_page from './components/signup_1/2_page'
+import SignupThirdPage from './components/signup_1/3_page'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
       <Route path='/signup' element={<SignUp />} />
       <Route path='/signin_initial' element={<Signin_initial />} /> //this is signup initial page
       <Route path='2_page.jsx' element={<Signup_first_page />} /> //first page signup
+      <Route path='3_page.jsx' element={<SignupThirdPage />} />  //Second page signp but name is third_page
     </Routes>
     </BrowserRouter>
      
