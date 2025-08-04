@@ -2,6 +2,7 @@ import React from 'react'
 import './signup_initial.css'
 const Signin_initial = () => {
   return (
+   <div className="firts_page">
      <div id='signin_initial'>
         <header>
             <div className="Nav_container">
@@ -33,6 +34,7 @@ const Signin_initial = () => {
           </div>
         </main>
     </div>
+   </div>
   )
 }
 
