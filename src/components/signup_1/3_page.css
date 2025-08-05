@@ -23,12 +23,14 @@
 }
 
 .iconCircle {
-  font-size: 32px;
   color: red;
-  border: 2px solid red;
+  border: 3px solid red;
   border-radius: 50%;
-  padding: 10px 14px;
+  padding: 10px 11px 10px;
   display: inline-block;
+  max-width: 51px;
+  min-height: 51px;
+  margin: 0px 0px 30px;
 }
 
 .step {
@@ -58,14 +60,15 @@
 .skipButton {
   background-color: #e6e6e6;
   color: black;
-  font-weight: 500;
+  font-weight: 700;
   padding: 12px 24px;
   border: none;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
   border-radius: 4px;
   width: 340px;
   height: 72px;
+  
 }
 
 .skipButton:hover {
@@ -76,6 +79,11 @@
     max-width: 1520px;
     min-height: 476px;
     padding: 0px 0px 95px;
+}
+
+.CircleImages{
+  max-width: 24px;
+  min-height: 24px;
 }
 
 }

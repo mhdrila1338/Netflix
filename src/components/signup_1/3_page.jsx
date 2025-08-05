@@ -12,7 +12,7 @@ const SignupThirdPage = () => {
       <main className='mainThirdPage'>
         <div className="verifyContent">
             <div className="iconWrapper">
-              <span className="iconCircle">🔒</span> {/* You can replace with an SVG or icon */}
+              <span className="iconCircle"><img src="./images/images inside.png" alt="" className='CircleImages' /></span>
             </div>
             <p className="step">STEP 2 OF 4</p>
             <h1 className="heading">Great, now let us verify your email</h1>
@@ -22,7 +22,7 @@ const SignupThirdPage = () => {
             <p className="subText">
               Verifying your email will improve account security and help you receive important Netflix communications.
             </p>
-            <button className="skipButton">Skip</button>
+            <button className="skipButton"><a href="./4_page.jsx">Skip</a></button>
         </div>
       </main>
       <footer>
