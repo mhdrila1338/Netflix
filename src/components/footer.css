@@ -1,4 +1,6 @@
-.main_container{
+#footer{
+    background-color: black;
+    .main_container{
     max-width: 1224px;
     min-height: 468px;
 }
@@ -17,7 +19,10 @@
     background-color: black;
 }
 .link_list a{
-    color: gainsboro;
+    color: rgba(220, 220, 220, 0.768);
+    font-size: medium;
+    font-weight: 400;
+    line-height: 25px;
 }
 li{
     list-style: none;
@@ -43,4 +48,5 @@ li{
 }
 .footer_text{
     margin-top: 10px;
+}
 }
