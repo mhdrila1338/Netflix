@@ -1,0 +1,46 @@
+.main_container{
+    max-width: 1224px;
+    min-height: 468px;
+}
+.links{
+    max-width: 1228px;
+    min-height: 132px;
+    margin-top: 20px;
+}
+.link_list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.main_container{
+    margin: 0 auto;
+    background-color: black;
+}
+.link_list a{
+    color: gainsboro;
+}
+li{
+    list-style: none;
+}
+.call_session a{
+    color: gainsboro;
+}
+.btn_footer{
+    background-color: black;
+    border-color: gainsboro;
+    margin-top: 20px;
+    color: gainsboro;
+    max-width: 124px;
+    min-height: 32px;
+    padding: 6px 24px 6px 34px;
+}
+.btn_footer a{
+    text-decoration: none;
+    color: gainsboro;
+}
+.footer_text p{
+    color: gainsboro;
+}
+.footer_text{
+    margin-top: 10px;
+}

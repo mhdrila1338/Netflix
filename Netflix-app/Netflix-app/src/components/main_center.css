@@ -67,11 +67,3 @@
     text-decoration: none;
     color: white;
 }
-.curve-divider {
-  position: relative;
-  height: 100px;
-  background: linear-gradient(to right, red, #e50914); /* Netflix red gradient */
-  border-bottom-left-radius: 50% 100%;
-  border-bottom-right-radius: 50% 100%;
-  transform: scaleX(1.5);
-}
