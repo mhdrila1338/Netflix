@@ -1,0 +1,80 @@
+#signupFirstPage{
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+
+    .parentContainer{
+        max-width: 1520px;
+        min-height: 497px;
+        padding: 20px 32px 64px;
+    }
+    
+    .subContainer{
+        max-width: 440px;
+        min-height: 413px;
+    }
+
+    .formContainer{
+        max-width: 440px;
+        min-height: 413px;
+    }
+
+    .textArea{
+        max-width: 440px;
+        min-height: 133px;
+        padding-top: 20px;
+    }
+    .subContainer{
+        margin: 0 auto;
+    }
+    .inpurAreas{
+        max-width: 440px;
+        min-height: 184px;
+    }
+    .SpanFontSize{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .inputLi1{
+        width: 440px;
+        height: 56px;
+        border: 1px solid  black;
+        padding: 10px;
+    }
+    .inputLi1 label{
+        width: 408px;
+        height: 18px;
+    }
+     .inputLi1 input{
+        width: 100%;
+        border: none;
+    }
+    .inputLi2 input{
+        width: 440px;
+        height: 56px;
+        padding: 10px;
+    }
+    li{
+        list-style: none;
+    }
+    .inputUl{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nextButton{
+        max-width: 440px;
+        min-height: 72px;
+    }
+    .nextButton button{
+        width: 440px;
+        height: 72px;
+        background-color: red;
+        border: none;
+    }
+    .nextButton a{
+        color: white;
+        text-decoration: none;
+    }
+    
+
+}
+   

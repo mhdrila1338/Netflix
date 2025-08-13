@@ -1,0 +1,77 @@
+#fourthPage{
+    .main_container{
+        max-width: 1520px;
+        min-height: 625px;
+    }
+    
+.choose-plan-container {
+  max-width: 340px;
+  min-height: 541px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+}
+
+.checkmark-icon {
+  font-size: 32px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.step-text {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  margin: 0;
+}
+
+.choose-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #222;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.features-list li {
+  max-width: 300px;
+  min-height: 54px;
+  font-size: 20px;
+  color: #444;
+  margin: 15px 0;
+  text-align: left;
+  padding-left: 20px;
+  position: relative;
+  
+}
+
+.features-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: red;
+}
+
+.next-button {
+  background-color: #e50914;
+  color: white;
+  padding: 14px 0;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.next-button:hover {
+  background-color: #f6121d;
+}
+
+}

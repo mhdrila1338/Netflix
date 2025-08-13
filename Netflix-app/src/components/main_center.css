@@ -1,14 +1,12 @@
-.main-container {
+#main-center{
+  .main-container {
   position: relative;
-  height: 100vh;
+  min-height  : 900px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('https://assets.nflxext.com/ffe/siteui/vlv3/a927b1ee-784d-494a-aa80-cf7a062d2523/web/IN-en-20250714-TRIFECTA-perspective_5acb7337-c372-45ec-ae12-ddb110e6ad78_large.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .content-container {
@@ -48,11 +46,12 @@
   padding:12px;
   width:60%;
   max-width:400px;
-  border: none;
+  border: 1px solid whitesmoke;
   border-radius:2px;
   font-size:1rem;
-  color:white;
   outline: none;
+  background: none;
+  color: white;
 }
 
 .email button {
@@ -66,4 +65,6 @@
 .sub_btn a{
     text-decoration: none;
     color: white;
+}
+
 }

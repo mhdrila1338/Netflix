@@ -1,0 +1,74 @@
+#signin_initial{
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;    
+    .Nav_container{
+    max-width: 1520px;
+    min-height: 90px;
+    border-bottom: 1px solid #e6e6e6;
+    }
+    .image_area{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 90px;
+        padding: 0 40px 0 40px;
+    }   
+    .image_area a,img{
+        max-width: 167px;
+        min-height: 45px;
+    }
+    .image_area button,a{
+        border: none;
+        font-size: 19px;
+        background: none;
+    }
+    .main_container{
+        max-width: 1520px;
+        min-height: 577px;
+    }
+    .main_sub_container{
+        max-width: 340px;
+        min-height: 493px;
+    }
+    .image_container{
+        max-width: 260px;
+        min-height: 210px;
+        margin: 0 auto;
+    }
+    .laptop{
+        max-width: 260px;
+        min-height: 90px;
+        padding: 100px 0 20px 0;
+    }
+    .text_area{
+        max-width: 340px;
+        min-height: 113px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .para_area{
+        max-width: 300px;
+        min-height: 69px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .next_button{
+        max-width: 340px;
+        min-height: 72px;
+        margin: 0 auto;
+    }
+    .next_button button{
+        width: 340px;
+        height: 72px;
+        background-color: red;
+        border: none;
+        font-size: 19px;
+        font-weight: 900;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+}
