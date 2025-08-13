@@ -13,6 +13,7 @@ import SignupThirdPage from './components/signup_1/3_page'
 import SignupFourthPage from './components/signup_1/4_page'
 import SignupFifthPage from './components/signup_1/5_page'
 import SixthPageSignup from './components/signup_1/6_page'
+import AfterLoginHome from './components/AfterLoginHome'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,14 +26,15 @@ function App() {
       <Route path='/login' element={<Login />} />
       <Route path='/signup' element={<SignUp />} />
       <Route path='/signin_initial' element={<Signin_initial />} /> //this is signup initial page
-      <Route path='2_page.jsx' element={<Signup_first_page />} /> //first page signup
-      <Route path='3_page.jsx' element={<SignupThirdPage />} />  //Second page signp but name is third_page
-      <Route path='4_page.jsx' element={<SignupFourthPage />} /> //Third page signup but name is fourth page
-      <Route path='5_page.jsx' element={<SignupFifthPage />} /> //Fourth page signup but name is fifth page
-      <Route path='6_page.jsx' element={<SixthPageSignup />} /> //Fifth page signup but name is sixth page
+      <Route path='/2_page' element={<Signup_first_page />} /> //first page signup
+      <Route path='/3_page' element={<SignupThirdPage />} />  //Second page signp but name is third_page
+      <Route path='/4_page' element={<SignupFourthPage />} /> //Third page signup but name is fourth page
+      <Route path='/5_page' element={<SignupFifthPage />} /> //Fourth page signup but name is fifth page
+      <Route path='/6_page' element={<SixthPageSignup />} /> //Fifth page signup but name is sixth page
+      <Route path='/AfterLoginHome' element={<AfterLoginHome />} />//AfterLoginHomePage
     </Routes>
     </BrowserRouter>
-     
+      
     </>
   )
 }

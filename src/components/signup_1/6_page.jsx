@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar_common from './Navbar-common'
 import FooterCommon from './Footer-common'
 import './6_page.css'
+import { Link } from 'react-router-dom'
 
 const SixthPageSignup = () => {
   return (
@@ -42,6 +43,7 @@ const SixthPageSignup = () => {
               </div>
             </div>
             </button>
+            <button><a href="./AfterLoginHome.jsx">Next</a></button>
           </div>
     
           <p className="encryption-note">End-to-end encrypted 🔒</p>
